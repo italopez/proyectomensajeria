@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  border: solid gray 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#grupos {
+  display: flex;
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+#usermain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px;
+}
+
+#usermain .user1 {
+  display: flex;
+  align-items: center;
+}
+
+#usermain img {
+  width: 40px;
+  border-radius: 50px;
+  border: solid rgb(213, 201, 201) 3px;
+  margin-left: 20px;
+}
+
+#usermain ul {
+  padding: 0px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+#usermain .iconos {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  width: 20%;
+  text-align: center;
+  color: rgb(199, 197, 197);
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  border-top: solid gray 3px;
+}
+
+.listacontactos {
+  display: flex;
+  flex-direction: column;
+}
+
+.amigos {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 100px;
+  border-top: solid rgb(205, 205, 205) 3px;
+}
+
+button {
+  height: 60px;
+  width: 230px;
+  background-color: #a491d2;
+  color: white;
+  border-radius: 3px;
+  border: white;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.contactos img {
+  border-radius: 50px;
+  border: solid gray 2px;
+  margin-left: 20px;
+  width: 60px;
+}
+
+.amigos h2 {
+  margin: 0px;
+  font-size: 16px;
+  font-size: 25px;
+}
+
+.contactos ul {
+  padding-left: 20px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.amigos li {
+  font-size: 15px;
+}
+
+.secundaria {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-height: 100vh;
+  border-left: solid rgb(205, 205, 205) 2px;
+}
+
+.secundaria img {
+  width: 300px;
+}
+
+.textchat {
+  text-align: center;
+  padding-top: 0;
+  width: 70%;
+}
+
+.textchat h1 {
+  font-size: 50px;
+}
+
+.textchat p {
+  font-size: 25px;
+}
+
+.bordeicono {
+  margin-right: 15px;
+}
